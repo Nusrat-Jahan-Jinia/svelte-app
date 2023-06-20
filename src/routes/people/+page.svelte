@@ -1,5 +1,5 @@
 <script>
-	import { products } from '$lib/products';
+	import { people } from '$lib/people.js';
 
 	export let data;
 </script>
@@ -8,7 +8,7 @@
 	<div class="container mx-auto p-9 lg:px-0 md:py-20 min-[1536px]:px-20 max-[1800px]:px-20">
 		<div class="yellow-header">{data.title}</div>
 		<div class="grid grid-cols-2 sm:grid-cols-3 gap-6">
-			{#each products as product}
+			{#each people as product}
 				<a href="/people/{product.id}">
 					<article
 						aria-label="Card example"

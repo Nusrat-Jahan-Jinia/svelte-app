@@ -1,4 +1,4 @@
-export const products = [
+export const people = [
 	{
 		id: 1,
 		name: 'Mahbubur rahman',
