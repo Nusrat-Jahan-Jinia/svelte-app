@@ -52,3 +52,14 @@
 		</div>
 	</div>
 </div>
+
+<div class="w-full">
+	<div class="container mx-auto p-9 lg:px-0 md:py-20 min-[1536px]:px-20 max-[1800px]:px-20">
+		<div class="yellow-header">Form</div>
+		<form method="POST" on:submit|preventDefault={addPost}>
+			<input type="text" name="title" />
+			<input type="text" name="description" />
+			<button type="submit" class="py-3 text-yellow-600">Submit</button>
+		</form>
+	</div>
+</div>

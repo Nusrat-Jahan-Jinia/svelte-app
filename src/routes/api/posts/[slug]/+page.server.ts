@@ -1,5 +1,6 @@
-import type { PageServerLoad } from './$types';
+import type { Actions, PageServerLoad } from './$types';
 import { error } from '@sveltejs/kit';
+import { json } from '@sveltejs/kit';
 
 import db from '$lib/database';
 
