@@ -27,7 +27,7 @@
 						<a href="/people" class="menu-link text-black hover:text-yellow-500">People</a>
 					</li>
 					<li class="py-3">
-						<a href="/products" class="menu-link text-black hover:text-yellow-500">Products</a>
+						<a href="/posts" class="menu-link text-black hover:text-yellow-500">Posts</a>
 					</li>
 				</ul>
 			</div>
