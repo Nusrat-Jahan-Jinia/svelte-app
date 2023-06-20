@@ -38,11 +38,11 @@
 				<p>Loading data...</p>
 			{:then posts}
 				<p>Showing {posts.length} posts.</p>
-				{#each posts as post}
-					<article>
-						<a href="posts/{post.id}">
-							<p class="font-normal text-base text-black">{post.title}</p>
-							<p class="font-normal text-base text-black">{post.content}</p>
+				{#each posts as { slug, title, content }}
+					<article class="">
+						<a href="posts/{slug}" class="h-44 overflow-hidden space-y-4">
+							<p class="font-normal text-base text-black">{title}</p>
+							<p class="font-normal text-base text-gray-600">{content}</p>
 						</a>
 					</article>
 				{/each}
