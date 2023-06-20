@@ -7,7 +7,7 @@ export const load = async (loadEvent: any) => {
 	if (productId > 12) {
 		throw error(404, 'Oh no, Looks like the product is currently unavailable');
 	}
-	const title = 'Product Details';
+	const title = 'People Biodata';
 	const response = await fetch(`http://localhost:5173/api/products/${productId}`);
 	const product = await response.json();
 	return {

@@ -1,10 +1,10 @@
 <script>
-	import '../app.css'
-	import logo from '$lib/assets/logo.jpeg'
-	import fb from '$lib/assets/fb.svg'
-	import fbhover from '$lib/assets/fb-hover.svg'
-	import instagram from '$lib/assets/instagram.svg'
-	import instagramhover from '$lib/assets/instagram-hover.svg'
+	import '../app.css';
+	import logo from '$lib/assets/logo.jpeg';
+	import fb from '$lib/assets/fb.svg';
+	import fbhover from '$lib/assets/fb-hover.svg';
+	import instagram from '$lib/assets/instagram.svg';
+	import instagramhover from '$lib/assets/instagram-hover.svg';
 </script>
 
 <nav>
@@ -22,6 +22,9 @@
 					<li class="py-3"><a href="/" class="menu-link hover:text-yellow-500">Home</a></li>
 					<li class="py-3">
 						<a href="/about" class="menu-link text-black hover:text-yellow-500">About</a>
+					</li>
+					<li class="py-3">
+						<a href="/people" class="menu-link text-black hover:text-yellow-500">People</a>
 					</li>
 					<li class="py-3">
 						<a href="/products" class="menu-link text-black hover:text-yellow-500">Products</a>
